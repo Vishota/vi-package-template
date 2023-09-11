@@ -1,0 +1,43 @@
+{
+  "name": "vi_package_template",
+  "version": "1.0.2",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rmdir /s /q dist && tsc -p tsconfig.cjs.json && tsc -p tsconfig.esm.json && tsc -p tsconfig.types.json && copy package.json dist\\package.json && copy package.cjs.json dist\\_cjs\\package.json && copy package.mjs.json dist\\_esm\\package.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vishota/package_template.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Vishota/package_template/issues"
+  },
+  "homepage": "https://github.com/Vishota/package_template#readme",
+  "devDependencies": {
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "@types/node": "^20.6.0"
+  },
+  "typesVersions": {
+    ">=4.2": {
+      "*": [
+        "_types/*"
+      ]
+    }
+  },
+  "types": "./index.d.ts",
+  "exports": {
+    "./*": {
+      "types": "./_types/*.d.ts",
+      "require": "./_cjs/*.js",
+      "import": "./_esm/*.js",
+      "default": "./_esm/*.js"
+    }
+  }
+}
