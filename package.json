@@ -18,5 +18,9 @@
       "import": "./dist/cjs/main.js",
       "types": "./dist/types/main.d.ts"
     }
-  }
+  },
+  "files": [
+    "dist"
+  ],
+  "private": false
 }
