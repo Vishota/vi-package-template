@@ -19,6 +19,7 @@
       "types": "./dist/types/main.d.ts"
     }
   },
+  "types": "./dist/types/main.d.ts",
   "files": [
     "dist"
   ],
