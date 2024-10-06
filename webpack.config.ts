@@ -7,7 +7,7 @@ module.exports = {
   externals: [nodeExternals()],
   output: {
     filename: 'main.js',
-    path: path.resolve(__dirname, 'dist/cjs'),
+    path: path.resolve(__dirname, 'dist'),
     // library: 'vigen',
     libraryTarget: 'commonjs',
   },

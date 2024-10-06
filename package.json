@@ -14,12 +14,12 @@
   },
   "exports": {
     ".": {
-      "require": "./dist/cjs/main.js",
-      "import": "./dist/cjs/main.js",
-      "types": "./dist/types/main.d.ts"
+      "require": "./dist/main.js",
+      "import": "./dist/main.js",
+      "types": "./dist/main.d.ts"
     }
   },
-  "types": "./dist/types/main.d.ts",
+  "types": "./dist/main.d.ts",
   "files": [
     "dist"
   ],
