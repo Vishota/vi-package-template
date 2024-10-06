@@ -1,6 +1,9 @@
 {
+  "name": "notypesexample",
+  "version": "1.0.0",
   "scripts": {
-    "build": "webpack"
+    "build": "webpack",
+    "example": "ts-node ./example/main.ts"
   },
   "author": "vishota",
   "devDependencies": {
