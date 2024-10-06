@@ -2,6 +2,7 @@
   "scripts": {
     "build": "webpack"
   },
+  "main": "dist/main.js",
   "author": "vishota",
   "devDependencies": {
     "@types/node": "^22.7.4",
