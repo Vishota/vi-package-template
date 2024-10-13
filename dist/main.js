@@ -1,1 +1,0 @@
-(()=>{"use strict";var e={};(()=>{var r=e;Object.defineProperty(r,"__esModule",{value:!0}),r.default="Hello World"})();var r=exports;for(var l in e)r[l]=e[l];e.__esModule&&Object.defineProperty(r,"__esModule",{value:!0})})();
